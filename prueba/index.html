@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - 08SlidePanelAudio_ScrollTrigger</title>
+  <link href='//fonts.googleapis.com/css?family=Signika+Negative:300,400,600' rel='stylesheet' type='text/css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-----  
+  08SlidePanel_ScrollTrigger 
+  Scrolling/Animation Demo  
+  Caso 5. animación paneles <div>  con GSAP-ScrollTrigger
+  Añade Audiofade.js 
+
+Fundamentos básicos de animación GSAP
+------->
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+
+<body class="fondo_oscuro">
+
+<div class="caja"> En el Espacio: ordena los elementos para narrar una historia  </div>
+  
+ 
+<!-- Fondos extraidos de
+https://icons8.com/illustrations/style--casual-life-3d
+-->
+ 
+<div class="girl_dog"></div>
+  
+<div class="girl_bike"></div>
+  
+ 
+<!----  bici   --->
+<audio loop id="https://cdn.pixabay.com/download/audio/2022/06/07/audio_fb18183daa.mp3?filename=relaxing-afternoon-full-version-relaxing-and-easy-piano-music-112850.mp3">
+                             
+                             
+
+
+<!----  agua   --->
+<audio loop id="audio2" src="https://cdn.pixabay.com/download/audio/2022/03/14/audio_65d1725d3d.mp3?filename=dog-barking-70772.mp3"></audio>
+
+<!----  tierra   --->
+<audio loop id="audio3" src="https://cdn.pixabay.com/download/audio/2021/08/04/audio_ad180669e0.mp3"></audio>
+
+<!----  viento   --->
+<audio loop id="audio4" src="https://cdn.pixabay.com/download/audio/2021/08/09/audio_ea914471ac.mp3"></audio>
+
+
+  
+  
+<!--- boton activar/desacticar sonido ---->
+
+<button id="button">
+  <i class="fas fa-volume-up"></i>
+</button>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/ScrollTrigger.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/GSDevTools3.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://utopolis.ugr.es/media/scrollsound/js/AudioFade.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
